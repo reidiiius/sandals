@@ -1,0 +1,10 @@
+
+{
+  "name": "Sandals",
+  "version": "0.1",
+  "manifest_version": 1,
+  "description": "Shoes app",
+  "author": "Reid Netterville III",
+  "default locale": "en",
+  "homepage url": "https://github.com/reidiiius", 
+ }
