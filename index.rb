@@ -26,7 +26,7 @@ def subdominant
 
 end
 
-Shoes.app :width => 642, :height => 642
+Shoes.app :width => 642, :height => 642, :title => 'Alchemy a la  mode'
 
 
 
