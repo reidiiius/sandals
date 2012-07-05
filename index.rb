@@ -5,28 +5,28 @@ class PageList < Shoes
 
 def elements
  background seashell 
-  image 'reidiiius.png', :click => "/dominant"
-  image 'nautilus.png', :click => "/subdominant"
+  image 'nautilus.png', :click => "/dominant"
+  image 'reidiiius.png', :click => "/subdominant"
   image 'elements.png'
  end
 
 def dominant
  background seashell
   image 'seal.png', :click => "/"
-  image 'nautilus.png', :click => "/subdominant"
+  image 'reidiiius.png', :click => "/subdominant"
   image 'dominant.png'
  end
 
 def subdominant
  background seashell
   image 'seal.png', :click => "/"
-  image 'reidiiius.png', :click => "/dominant"
+  image 'nautilus.png', :click => "/dominant"
   image 'subdominant.png'
  end
 
 end
 
-Shoes.app :width => 642, :height => 642
+Shoes.app :width => 642, :height => 642, :title => 'Alchemy a la mode'
 
 
 
