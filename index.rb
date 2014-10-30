@@ -28,5 +28,3 @@ end
 
 Shoes.app :width => 642, :height => 642, :title => 'Alchemy a la mode'
 
-
-
